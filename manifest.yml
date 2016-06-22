@@ -1,0 +1,5 @@
+---
+applications:
+- name: default-app-staticfile
+  memory: 64M
+  buildpack: staticfile_buildpack

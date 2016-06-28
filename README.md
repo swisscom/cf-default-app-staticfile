@@ -11,3 +11,7 @@ The default Static File app that will be pushed into the Swisscom Application cl
 1. Install the [cf CLI](https://github.com/cloudfoundry/cli#downloads)
 1. Run `cf push --random-route`
 1. Visit the given URL
+
+## Create ZIP
+
+1. Run `zip -r staticfile_app.zip public Staticfile`
